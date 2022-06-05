@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(iqra.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.iqra{
+    background-color:rgba(15, 15, 15, 0.158);   
+    margin: 0px auto;
+    height: 100vh;
+}
+.head_box{
+    text-align: center;
+}
+.head_box h3{
+    margin-top: 15px;
+    text-transform: capitalize;
+    color: red;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container a{
+    margin: 20px;
+}
+
+.container>a>button{
+    background-color: red;
+    width: 200px;
+    height: 60px;
+    font-weight:bolder;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+p{ 
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+}
+p svg{
+    fill: blue;
+    width: 20px;
+    background-color: #30f50d;
+    height: 20px;
+    margin: -3px;
+
+}
